@@ -1,0 +1,43 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-banner{
+    display: flex;
+    height: 700px;
+}
+
+.half-weidh{
+    width: 50%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.half-weidh h1{
+    font-size: 60px;
+    font-weight: 700px;
+    color: rgb(72, 70, 70);
+}
+
+.half-weidh img{
+    width: 100%;
+}
+
+.half-weidh p{
+    font-size: 18px;
+}
+
+.skip-coplor{
+    color: orange;
+}
+
+
+.half-weidh a{
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 30px;
+    font-size: 20px;
+}
