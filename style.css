@@ -1,11 +1,11 @@
 body {
-    font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 .top-banner{
     display: flex;
-    height: 700px;
+    height: 750px;
 }
 
 .half-weidh{
@@ -16,7 +16,7 @@ body {
 
 .half-weidh h1{
     font-size: 60px;
-    font-weight: 700px;
+    font-weight: 700;
     color: rgb(72, 70, 70);
 }
 
@@ -25,7 +25,9 @@ body {
 }
 
 .half-weidh p{
-    font-size: 18px;
+    font-size: 20px;
+    margin-bottom: 100px;
+    display: block;
 }
 
 .skip-coplor{
@@ -35,9 +37,125 @@ body {
 
 .half-weidh a{
     text-decoration: none;
-    background-color: tomato;
+    background: linear-gradient(orange, tomato);
     color: white;
     padding: 20px 30px;
     border-radius: 30px;
     font-size: 20px;
+    box-shadow: 1px 4px 12px 6px #e9e3e3;
 }
+
+#about-me-content{
+    padding-top: 80px;
+}
+
+#about-me-image{
+    width: 35%;
+    padding-top: 50px;
+}
+
+#about-me-bg{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 800px;
+}
+
+.food-banner{
+    height:auto;
+}
+
+.food-banner-text{
+    width:50%;
+    margin: auto;
+}
+
+.food-banner-text h1{
+    color: rgb(83, 82, 82);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.food-banner-text p{
+    color: rgb(83, 82, 82);
+    font-size: 20px;
+    text-align: center;
+}
+
+.foor-item{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.foor-item img{
+    width: 100%;
+}
+
+.food-item-one{
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 1px 4px 12px 6px #e9e3e3;
+    border-radius: 50px;
+}
+
+.food-item-one h1{
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.food-item-one p{
+    text-align: center;
+}
+
+.social-number{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-shadow: 1px 4px 12px 6px #e9e3e3;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.social-number-item{
+    width: 35%;
+}
+
+.social-number-item h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700px;
+}
+
+.social-number-item p{
+    text-align: center;
+}
+
+.footer-main{
+    height: 200px;
+    background-color: rgb(23, 22, 22);
+}
+
+.footer-main h1{
+    color: gray;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+.footer-main p{
+    color: gray;
+    text-align: center;
+}
+
+.footer-h1-color{
+    color: tomato;
+}
+
+
+
